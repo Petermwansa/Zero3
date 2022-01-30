@@ -3,6 +3,11 @@ body {
   text-align: center;
 }
 
+.icon {
+  width: 200px;
+  height: 200px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Black";
 }
@@ -67,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* for the features */
-#features {
+#services {
   padding: 50px 50px;
   position: relative;
 }
@@ -86,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* for the icons */
 .icon {
-  color: #9C19E0;
+  color: #548CFF;
   margin-bottom: 1.1rem;
 }
 
@@ -95,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon:hover {
-  color: #F90716;
+  color: #000;
 }
 
 
@@ -107,10 +112,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-/* press section */
-#press {
-  padding-bottom: 4%;
-}
 
 .press-logo {
   width: 10%;
@@ -119,19 +120,26 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* the pricing section */
-#pricing {
+#packages {
   padding: 100px;
 }
 
-.pricing-column {
-  padding: 3% 2%;
+#footer {
+  background-color: #548CFF;
 }
 
-/* for the bottom part */
-#cta {
+.contacts {
+  padding-top: 100px;
+  color: white;
+}
 
-  padding: 50px 50px;
+/* #footer {
+  color: gray;
+  background-color: gray;
+} */
 
+.pricing-column {
+  padding: 3% 2%;
 }
 
 .social-icon {
@@ -143,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 .coloured-section {
-  background-color: #9C19E0;
+  background-color: #548CFF;
   color: #fff;
 }
 
