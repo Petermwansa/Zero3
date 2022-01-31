@@ -155,6 +155,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.target {
+  font-size: 14px;
+  transition: font-size 3s 0.1s;
+}
+
+.target:hover {
+  font-size: 36px;
+  color: black;
+}
+
 @media (max-width: 1028px) {
 
   #title {
