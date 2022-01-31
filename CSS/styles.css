@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .target {
   font-size: 14px;
-  transition: font-size 3s 0.1s;
+  transition: font-size 3s 0.01s;
 }
 
 .target:hover {
