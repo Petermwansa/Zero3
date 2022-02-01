@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Light";
 }
 
+
+
 /* The download buttons */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -155,6 +157,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.navitems {
+  font-size: 2rem;
+  transition: font-size 2s 0.01s;
+  color: black;
+}
+
+.navitems:hover {
+  font-size: 3rem;
+  color: black;
+}
+
 .target {
   font-size: 14px;
   transition: font-size 3s 0.01s;
@@ -164,6 +177,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 36px;
   color: black;
 }
+
+
 
 @media (max-width: 1028px) {
 
